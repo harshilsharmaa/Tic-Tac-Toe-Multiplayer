@@ -1,0 +1,11 @@
+.url-input{
+    width: 8rem;
+}
+
+.copy-btn{
+    font-size: 16px;
+}
+
+.copied{
+    background-color: #00ff00;
+}

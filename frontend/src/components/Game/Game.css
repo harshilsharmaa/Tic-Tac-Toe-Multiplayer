@@ -1,0 +1,158 @@
+.game{
+    position: relative;
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.grid-item {
+    padding: 30px;
+    font-size: 60px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    color: #61dafb;
+    border: none;
+}
+
+
+.grid-item-hover:hover{
+    background-color: #61dafb1c;
+    color: white;
+    /* border: none; */
+    cursor: pointer;
+}
+
+.bottom{
+    border-bottom: 2px solid #61dafb;
+}
+
+.right{
+    border-right: 2px solid #61dafb;
+}
+
+.line {
+	background-color: green;
+    box-shadow: 0px 0px 10px green;
+	border-radius: 50px;
+	position: absolute;
+
+	transform: translateY(-50%);
+	height: 0.3rem;
+	width: 0;
+	animation: grow 0.3s linear forwards;
+	z-index: 2;
+}
+
+@keyframes grow {
+	to {
+		width: 90%;
+	}
+}
+
+.p0{
+    top: 52%;
+	left: 6%;
+    transform: rotate(0deg);
+}
+
+.p1{
+    top: 69%;
+	left: 6%;
+    transform: rotate(0deg);
+}
+
+.p2{
+    top: 86%;
+	left: 6%;
+    transform: rotate(0deg);
+}
+
+
+.p3{
+    top: 70%;
+	left: -27%;
+    transform: rotate(90deg);
+}
+
+.p4{
+    top: 70%;
+	left: 5%;
+    transform: rotate(90deg);
+}
+
+.p5{
+    top: 70%;
+	left: 37%;
+    transform: rotate(90deg);
+}
+
+.p6{
+    top: 70%;
+	left: 5%;
+    transform: rotate(45deg);
+}
+
+.p7{
+    top: 70%;
+	left: 5%;
+    transform: rotate(135deg);
+}
+
+
+.game-end{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.loading{
+    height: 420px;
+    width: 390px;
+    background: #61dafb00;
+    position: absolute;
+    /* top: 87px; */
+    top: 27%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.score{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+
+@media (max-width: 768px) {
+    .grid-item {
+        padding: 30px;
+        font-size: 60px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .loading{
+        height: 420px;
+        width: 325px;
+        top: 27%;
+        /* border: 1px solid red; */
+    }
+
+}

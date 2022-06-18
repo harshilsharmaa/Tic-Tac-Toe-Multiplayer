@@ -1,0 +1,57 @@
+.room-btns{
+    margin-top: 5rem;
+
+  }
+  
+.room-btn{
+  background-color: #61dafb;
+  border: 2px solid #61dafb;
+  color: #282c34;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.room-btn:hover{
+  background-color: #61dafb17;
+  color: #61dafb;
+  /* border: 2px solid #61dafb; */
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name-input{
+  width: 15rem;
+  height: 1rem;
+  border: none;
+  outline: none;
+  background: #61dafb09;
+  color: white;
+  border-bottom: 2px solid #61dafb69;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 5rem;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.name-input:focus{
+  border-bottom: 2px solid #61dafb;
+}
+
+.error{
+  position: absolute;
+  top: 295px;
+  font-size: 1rem;
+  color: red;
+}
