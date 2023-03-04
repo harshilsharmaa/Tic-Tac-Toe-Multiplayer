@@ -6,8 +6,8 @@ import {Favorite} from '@material-ui/icons';
 const Footer = () => {
   return (
     <div className='footer'>
-        <p>Made By <span>Harshil</span> with</p>
-        <Favorite style={{ color: "red" }} />
+        <p>Made with </p> <Favorite style={{ color: "red" , width:"20px"}} /> <p>by <a href="https://www.linkedin.com/in/harshilsharmaa" rel="noopener noreferrer" target="_blank">Harshil</a> </p> 
+
     </div>
   )
 }

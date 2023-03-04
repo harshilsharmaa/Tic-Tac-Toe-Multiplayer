@@ -2,18 +2,20 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-.footer{
     text-align: center;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
 }
 
-.footer span{
+.footer p{
+    padding: 0;
+    margin-bottom: px;
+}
+
+.footer a{
+    text-decoration: none;
     color: #61dafb;
     font-size: 1.2em;
 }
