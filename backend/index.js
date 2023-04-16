@@ -7,7 +7,7 @@ const server = require('http').createServer(app);
 
 const io = require('socket.io')(server, {
     cors: {
-        origin: process.env.FRONTEND_URL
+        origin: "https://zero-kata.netlify.app"
       }
 })
 

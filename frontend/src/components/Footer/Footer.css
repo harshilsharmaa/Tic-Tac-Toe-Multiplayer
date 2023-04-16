@@ -1,8 +1,16 @@
 .footer{
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
     text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #cccccc65;
+    margin-top: 10px;
+}
+
+.upper{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -11,11 +19,24 @@
 
 .footer p{
     padding: 0;
-    margin-bottom: px;
+    /* margin-bottom: px; */
 }
 
 .footer a{
     text-decoration: none;
     color: #61dafb;
     font-size: 1.2em;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.social a{
+    padding: 0 10px;
+    color: #61dafb;
+    font-size: 0.8em;
 }
