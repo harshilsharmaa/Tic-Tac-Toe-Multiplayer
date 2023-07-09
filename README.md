@@ -1,6 +1,6 @@
 # Tic-Tac-Toe-Multiplayer
 
-Live: https://zero-kata.netlify.app
+Live: [https://zerokata.in](https://zerokata.in)
 
 YouTube: https://youtu.be/Z3_A2qW_VD0
 
